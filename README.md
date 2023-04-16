@@ -1,4 +1,4 @@
-# vite-perf-collect
+# vite-perf
 A cli tool to collect vite server performance metrics, includes:
 
 - vite config loading time
@@ -23,7 +23,7 @@ A cli tool to collect vite server performance metrics, includes:
 ## Install
 
 ```shell
-$ npm i vite-perf-collect
+$ npm i vite-perf
 ```
 
 ## Usage

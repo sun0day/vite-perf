@@ -1,5 +1,5 @@
 {
-  "name": "vite-perf-collect",
+  "name": "vite-perf",
   "version": "0.1.0",
   "description": "A cli tool to collect vite performance metrics",
   "main": "./dist/cli.js",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sun0day/vite-perf-collect.git"
+    "url": "git+https://github.com/sun0day/vite-perf.git"
   },
   "keywords": [
     "vite",
@@ -28,9 +28,9 @@
   "author": "sun0day",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sun0day/vite-perf-collect/issues"
+    "url": "https://github.com/sun0day/vite-perf/issues"
   },
-  "homepage": "https://github.com/sun0day/vite-perf-collect#readme",
+  "homepage": "https://github.com/sun0day/vite-perf#readme",
   "engines": {
     "node": ">=14"
   },

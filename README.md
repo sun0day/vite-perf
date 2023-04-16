@@ -11,7 +11,9 @@ A cli tool to collect vite server performance metrics, includes:
 ## Screenshot
 
 
-![vite-perf-collect](https://user-images.githubusercontent.com/102238922/220001043-b5584e16-c43b-49e3-a9ae-55200b61d043.gif)
+
+<img width="951" alt="image" src="https://user-images.githubusercontent.com/102238922/232302812-23b1a01d-b800-4e27-ae5e-47b5ec5fc6e9.png">
+
 
 ## Prerequisite
 
@@ -33,24 +35,8 @@ $ vperf --force --load startUp
 ## Options
 
 |option|type|required|description
-|-----|-----|-----|-------|
-|--force|`boolean`||same as `vite --force`|
+|-----|:-----:|:-----|-------|
+|--force   |`boolean`||same as `vite --force`|
 |--load|`'startUp'/'prebundle'`||specific when to load the page, `'startUp'` means load the page once vite server starts up, `'prebundle'` means load the page once vite server finishes pre-bundle
 
-## Embedded DNS Server
-
-`dns-detector` also embeds some famous DNS servers to help resolve IP address.
-
-- 1.1.1.1
-- 8.8.8.8
-- 199.85.126.10
-- 208.67.222.222
-- 84.200.69.80
-- 8.26.56.26
-- 64.6.64.6
-- 192.95.54.3
-- 81.218.119.11
-- 114.114.114.114
-- 119.29.29.29
-- 223.5.5.5
 

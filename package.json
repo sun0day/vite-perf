@@ -1,0 +1,48 @@
+{
+  "name": "vite-perf-collect",
+  "version": "0.1.0",
+  "description": "A cli tool to collect vite performance metrics",
+  "main": "./dist/cli.js",
+  "scripts": {
+    "dev": "tsup cli.ts --watch",
+    "build": "tsup cli.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": {
+      "require": "./dist/cli.js"
+    }
+  },
+  "bin": {
+    "vperf": "./dist/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sun0day/vite-perf-collect.git"
+  },
+  "keywords": [
+    "vite",
+    "cli",
+    "performance"
+  ],
+  "author": "sun0day",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sun0day/vite-perf-collect/issues"
+  },
+  "homepage": "https://github.com/sun0day/vite-perf-collect#readme",
+  "engines": {
+    "node": ">=14"
+  },
+  "peerDependencies": {
+    "vite": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "cac": "^6.7.14",
+    "ora": "^6.3.0",
+    "playwright": "^1.32.3",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  }
+}
